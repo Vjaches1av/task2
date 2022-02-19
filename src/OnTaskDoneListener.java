@@ -1,5 +1,5 @@
 @FunctionalInterface
-public interface OnTaskDoneListener {
+public interface OnTaskDoneListener<T> {
 
-    void onDone(String result);
+    void onDone(T result);
 }
